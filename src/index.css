@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bigHover:hover{
+  animation: largeIcon 0.5s linear forwards;
+}
+
+@keyframes largeIcon {
+  100%{
+    scale:1.3;
+    translate: 20%;
+    color:rgb(3, 153, 108)
+  }
+  
+}
