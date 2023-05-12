@@ -1,6 +1,7 @@
-import uniqid from 'uniqid'
+import uniqid from "uniqid";
 
-
-const entrevistados=[{
-    id:uniqid(),
-}]
+const entrevistados = [
+  {
+    id: uniqid(),
+  },
+];

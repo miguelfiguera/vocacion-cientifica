@@ -1,14 +1,19 @@
 import React from "react";
-import dino from '../assets/favicon.svg'
-import {Link,NavLink} from 'react-router-dom'
-
+import dino from "../assets/favicon.svg";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="#">
-        Vocación Científica <img className="ms-2 bigHover" src={dino} alt="dinosaurio" style={{maxHeight:'50px'}}/> 
+          Vocación Científica{" "}
+          <img
+            className="ms-2 bigHover"
+            src={dino}
+            alt="dinosaurio"
+            style={{ maxHeight: "50px" }}
+          />
         </Link>
         <button
           className="navbar-toggler"
@@ -25,7 +30,7 @@ export default function Navbar() {
           tabIndex="-1"
           id="offcanvasDarkNavbar"
           aria-labelledby="offcanvasDarkNavbarLabel"
-          style={{maxWidth:'250px'}}
+          style={{ maxWidth: "250px" }}
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
@@ -41,23 +46,37 @@ export default function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item text-start">
-                <Link className="nav-link active  bigHover" aria-current="page" to="/vocacion-cientifica/">
-                <i className="fa-solid fa-jedi fa-lg"></i>    Inicio
+                <Link
+                  className="nav-link active  bigHover"
+                  aria-current="page"
+                  to="/vocacion-cientifica/"
+                >
+                  <i className="fa-solid fa-jedi fa-lg"></i> Inicio
                 </Link>
               </li>
               <li className="nav-item text-start  ">
-                <Link className="nav-link active bigHover" to="/vocacion-cientifica/comoparticipar">
-                <i className="fa-solid fa-rocket fa-lg"></i>   ¿Cómo participar?{" "}
+                <Link
+                  className="nav-link active bigHover"
+                  to="/vocacion-cientifica/comoparticipar"
+                >
+                  <i className="fa-solid fa-rocket fa-lg"></i> ¿Cómo participar?{" "}
                 </Link>
               </li>
               <li className="nav-item  text-start">
-                <Link className="nav-link active bigHover" to="/vocacion-cientifica/entrevistas">
-                <i className="fa-solid fa-atom fa-lg"></i>   Entrevistas{" "}
+                <Link
+                  className="nav-link active bigHover"
+                  to="/vocacion-cientifica/entrevistas"
+                >
+                  <i className="fa-solid fa-atom fa-lg"></i> Entrevistas{" "}
                 </Link>
               </li>
               <li className="nav-item text-start ">
-                <Link className="nav-link active bigHover" aria-current="page" to="/vocacion-cientifica/entrevistados">
-                <i className="fa-solid fa-microscope fa-lg"></i>    Entrevistados  
+                <Link
+                  className="nav-link active bigHover"
+                  aria-current="page"
+                  to="/vocacion-cientifica/entrevistados"
+                >
+                  <i className="fa-solid fa-microscope fa-lg"></i> Entrevistados
                 </Link>
               </li>
             </ul>
