@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/vocacion-cientifica/static/css/main.892b1b7a.css",
-    "main.js": "/vocacion-cientifica/static/js/main.0a5d68da.js",
+    "main.js": "/vocacion-cientifica/static/js/main.a26aec46.js",
     "static/js/787.d2289665.chunk.js": "/vocacion-cientifica/static/js/787.d2289665.chunk.js",
     "static/media/background.jpeg": "/vocacion-cientifica/static/media/background.ebddec257736b8eeb7bc.jpeg",
     "static/media/favicon.svg": "/vocacion-cientifica/static/media/favicon.cf1aceb509d132ea5daa0e15e19b2bda.svg",
     "static/media/logo.svg": "/vocacion-cientifica/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/vocacion-cientifica/index.html",
     "main.892b1b7a.css.map": "/vocacion-cientifica/static/css/main.892b1b7a.css.map",
-    "main.0a5d68da.js.map": "/vocacion-cientifica/static/js/main.0a5d68da.js.map",
+    "main.a26aec46.js.map": "/vocacion-cientifica/static/js/main.a26aec46.js.map",
     "787.d2289665.chunk.js.map": "/vocacion-cientifica/static/js/787.d2289665.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.892b1b7a.css",
-    "static/js/main.0a5d68da.js"
+    "static/js/main.a26aec46.js"
   ]
 }
