@@ -5,7 +5,7 @@ import {Link,NavLink} from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-dark bg-dark" style={{zIndex:'0'}}>
+    <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="#">
         Vocación Científica <img className="ms-2 bigHover" src={dino} alt="dinosaurio" style={{maxHeight:'50px'}}/> 

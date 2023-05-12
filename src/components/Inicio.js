@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Inicio() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 shadow-lg rounded-3">
       {" "}
       <h1 className="center-text mb-5">Objetivo del proyecto</h1>
-      <p className="mx-auto mb-5">
+      <p className="mx-auto mb-5 text-start">
         Este proyecto busca recopilar testimonios de científicos, de hoy en día
         y de todo el mundo, acerca de qué los motivó a estudiar, desarrollarse
         profesionalmente y continuar en el área científica de su preferencia,
@@ -13,7 +13,7 @@ export default function Inicio() {
         para la elaboración de políticas públicas que favorezcan la vocación
         científica, o en su defecto, una mayor alfabetización científica.
       </p>
-      <div className="container justify-content-center">
+      <div className="container justify-content-center pb-5 rounded-3">
         <iframe
           width="560"
           height="315"
