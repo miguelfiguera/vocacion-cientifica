@@ -1,15 +1,15 @@
 import React from "react";
 import dino from '../assets/favicon.svg'
-import {Link,NavLink} from 'react-dom'
+import {Link,NavLink} from 'react-router-dom'
 
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark" style={{zIndex:'0'}}>
       <div className="container-fluid">
-        <a className="navbar-brand" to="#">
+        <Link className="navbar-brand" to="#">
         Vocación Científica <img className="ms-2 bigHover" src={dino} alt="dinosaurio" style={{maxHeight:'50px'}}/> 
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -41,24 +41,24 @@ export default function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item text-start">
-                <a className="nav-link active  bigHover" aria-current="page" to="#">
+                <Link className="nav-link active  bigHover" aria-current="page" to="/vocacion-cientifica/">
                 <i className="fa-solid fa-jedi fa-lg"></i>    Inicio
-                </a>
+                </Link>
               </li>
               <li className="nav-item text-start  ">
-                <a className="nav-link active bigHover" to="#">
+                <Link className="nav-link active bigHover" to="/vocacion-cientifica/comoparticipar">
                 <i className="fa-solid fa-rocket fa-lg"></i>   ¿Cómo participar?{" "}
-                </a>
+                </Link>
               </li>
               <li className="nav-item  text-start">
-                <a className="nav-link active bigHover" to="#">
+                <Link className="nav-link active bigHover" to="/vocacion-cientifica/entrevistas">
                 <i className="fa-solid fa-atom fa-lg"></i>   Entrevistas{" "}
-                </a>
+                </Link>
               </li>
               <li className="nav-item text-start ">
-                <a className="nav-link active bigHover" aria-current="page" to="#">
+                <Link className="nav-link active bigHover" aria-current="page" to="/vocacion-cientifica/entrevistados">
                 <i className="fa-solid fa-microscope fa-lg"></i>    Entrevistados  
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
