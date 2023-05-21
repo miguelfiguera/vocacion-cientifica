@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <div
-      className=" my-0 py-0 justify-content-center align-content-center"
+      className=" my-0 py-0 justify-content-center align-content-center myShow"
       style={{
         backgroundImage: `url(${headerBg})`,
         backgroundSize: "cover",

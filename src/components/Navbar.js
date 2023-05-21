@@ -1,12 +1,21 @@
 import React from "react";
 import dino from "../assets/favicon.svg";
 import { Link, NavLink } from "react-router-dom";
+import { headerStore } from "../stores";
 
 export default function Navbar() {
+
+  const changeTitleVocation=headerStore((state)=>state.vocation)
+  const changeTitleParticipation=headerStore((state)=>state.comoParticipar)
+  const changeTitleEntrevistados=headerStore((state)=>state.entrevistados)
+  const changeTitleEntrevistas=headerStore((state)=>state.entrevistas)
+
+
+
   return (
     <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="#">
+        <Link className="navbar-brand" to="/vocacion-cientifica/">
           Vocación Científica{" "}
           <img
             className="ms-2 bigHover"
@@ -50,6 +59,7 @@ export default function Navbar() {
                   className="nav-link active  bigHover"
                   aria-current="page"
                   to="/vocacion-cientifica/"
+                  onClick={changeTitleVocation}
                 >
                   <i className="fa-solid fa-jedi fa-lg"></i> Inicio
                 </Link>
@@ -58,12 +68,14 @@ export default function Navbar() {
                 <Link
                   className="nav-link active bigHover"
                   to="/vocacion-cientifica/comoparticipar"
+                  onClick={changeTitleParticipation}
                 >
                   <i className="fa-solid fa-rocket fa-lg"></i> ¿Cómo participar?{" "}
                 </Link>
               </li>
               <li className="nav-item  text-start">
                 <Link
+                onClick={changeTitleEntrevistas}
                   className="nav-link active bigHover"
                   to="/vocacion-cientifica/entrevistas"
                 >
@@ -72,6 +84,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item text-start ">
                 <Link
+                onClick={changeTitleEntrevistados}
                   className="nav-link active bigHover"
                   aria-current="page"
                   to="/vocacion-cientifica/entrevistados"

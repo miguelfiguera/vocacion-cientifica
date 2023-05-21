@@ -1,8 +1,10 @@
 import React from "react";
 
 export default function ComoParticipar() {
+
+
   return (
-    <div className="container">
+    <div  className="container shadow-lg pb-4 rounded-3 pt-4">
       <h1 className="mt-5 mb-5">Cómo participar</h1>
       <p className="text-start">
         {" "}
@@ -28,7 +30,7 @@ export default function ComoParticipar() {
         CV.
       </p>{" "}
       <br />
-      <p className="text-start">
+      <p className="text-start pb-3">
         Una vez recibida toda la información, te contactaremos para agendar la
         entrevista, que será hecha a través de Google Meet en la fecha y hora
         acordada, y publicada 15 días después del último video programado en el{" "}
