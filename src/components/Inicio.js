@@ -23,7 +23,7 @@ export default function Inicio() {
     <div onLoad={changeTitle} className="container mt-5 shadow-lg rounded-3 ">
       {" "}
       <h1 className="center-text mb-5">Objetivo del proyecto</h1>
-      <p className="mx-auto mb-5 text-start">
+      <p className="ps-5 mb-5 text-start">
         Este proyecto busca recopilar testimonios de científicos, de hoy en día
         y de todo el mundo, acerca de qué los motivó a estudiar, desarrollarse
         profesionalmente y continuar en el área científica de su preferencia,

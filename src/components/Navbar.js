@@ -82,7 +82,7 @@ export default function Navbar() {
                   <i className="fa-solid fa-atom fa-lg"></i> Entrevistas{" "}
                 </Link>
               </li>
-              <li className="nav-item text-start ">
+              {/*<li className="nav-item text-start ">
                 <Link
                 onClick={changeTitleEntrevistados}
                   className="nav-link active bigHover"
@@ -91,7 +91,7 @@ export default function Navbar() {
                 >
                   <i className="fa-solid fa-microscope fa-lg"></i> Entrevistados
                 </Link>
-              </li>
+                 </li>*/}
             </ul>
           </div>
         </div>

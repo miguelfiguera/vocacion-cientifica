@@ -1,6 +1,6 @@
 import uniqid from "uniqid";
 
-const entrevistados = [
+export const entrevistados = [
   {
     id: uniqid(),
     name:'',
@@ -12,14 +12,14 @@ const entrevistados = [
     interview:''
   },{
     id: uniqid(),
-    name:'André Villavicencion',
+    name:'Andrés Villavicencio',
     email:'andres.villavicencio.spach@gmail.com',
     jobDescription:'Divulgador, paleontólogo, paleoartista y presidente de la Sociedad Paleontológica de Chile (@SPACH_CL)',
     jobTitle:'',
     facebook:'https://www.facebook.com/spach.cl/',
     instagram:'https://www.instagram.com/spach_chile',
     twitter:'https://twitter.com/spach_chile',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/NuX3-IdFWXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'NuX3-IdFWXw'
   },{
     id: uniqid(),
     name:'Mónica Vázquez',
@@ -29,7 +29,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/nM-aYVp-1Oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'nM-aYVp-1Oo'
   },{
     id: uniqid(),
     name:'Magali Arellano',
@@ -39,7 +39,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/EwMc2lgdvJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'EwMc2lgdvJg',
     linkedin:'https://www.linkedin.com/in/magali-arellano-vazquez/',
 
   },{
@@ -51,7 +51,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/lLuYAypZBtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'lLuYAypZBtg'
   },{
     id: uniqid(),
     name:' Estefanía Morales',
@@ -61,7 +61,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/xk_o63Juen8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'xk_o63Juen8',
     linkedin:'https://www.linkedin.com/in/estefan%C3%ADa-morales-ruiz-2490211b9/',
 
   },{
@@ -73,7 +73,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/jNzNpm4up98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'jNzNpm4up98',
     linkedin:'https://www.linkedin.com/in/carolina-g%C3%B3mez-albarr%C3%A1n-442406145/'
   },{
     id: uniqid(),
@@ -84,7 +84,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/0mqodrKpsGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'0mqodrKpsGI'
     ,linkedin:'https://www.linkedin.com/in/omar-rafael-regalado-fernandez/'
   },{
     id: uniqid(),
@@ -95,19 +95,19 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/R1hOwAAH2c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'R1hOwAAH2c4',
     linkedin:'https://www.linkedin.com/in/tamara-hernandez-beeftink/',
     researchgate:'https://www.researchgate.net/profile/Tamara-Hernandez-Beeftink'
   },{
     id: uniqid(),
     name:'Saúl Ares',
     email:'saul.ares@csic.es',
-    jobDescription:'',
+    jobDescription:"En nuestra novena entrevista conversamos con Saúl Ares,  Dr. en Matemática Aplicada e investigador en el Centro Nacional de Biotecnología de España",
     jobTitle:'',
     facebook:'',
     instagram:'',
     twitter:'https://twitter.com/omeuxeito',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/WBqVsoYGA4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'WBqVsoYGA4Y',
     linkedin:'https://www.linkedin.com/in/sa%C3%BAl-ares-37610a28/'
   },{
     id: uniqid(),
@@ -118,7 +118,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/F6M8yn5Wdk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'F6M8yn5Wdk4',
     linkedin:'https://www.linkedin.com/in/claudia-infante-b7826236/'
 
   },{
@@ -130,7 +130,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/hMqiPwrE2x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'hMqiPwrE2x0',
     linkedin:'https://www.linkedin.com/in/ver%C3%B3nica-d%C3%ADez-d%C3%ADaz-265b2940/'
   },{
     id: uniqid(),
@@ -141,7 +141,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/PtvCf_TICSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'PtvCf_TICSg',
     linkedin:'https://www.linkedin.com/in/nelson-sepulveda-03579463/?originalSubdomain=cl'
   },{
     id: uniqid(),
@@ -152,7 +152,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/vvzIjkTYon8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'vvzIjkTYon8'
   },{
     id: uniqid(),
     name:'Michel Geovanni Santiago-Martínez,',
@@ -162,7 +162,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/B6ln8eQZSDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'B6ln8eQZSDE'
   },{
     id: uniqid(),
     name:'María Luisa Valenzuela',
@@ -172,7 +172,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/25J4PE2SlN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'25J4PE2SlN8'
   },{
     id: uniqid(),
     name:'Víctor Muñoz',
@@ -182,7 +182,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/NdoK7TSOy38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'NdoK7TSOy38'
   },{
     id: uniqid(),
     name:'Jenna Davenport',
@@ -192,7 +192,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/6VvsQ8kYCus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'6VvsQ8kYCus'
   },{
     id: uniqid(),
     name:'María Belén Camarada',
@@ -203,7 +203,7 @@ const entrevistados = [
     instagram:'',
     twitter:'',
     linkedin:'https://www.linkedin.com/in/maria-belen-camarada/',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/eMRa-uQiP_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    interview:'eMRa-uQiP_o'
   },{
     id: uniqid(),
     name:'Lucía Canevaro',
@@ -213,7 +213,7 @@ const entrevistados = [
     facebook:'',
     instagram:'',
     twitter:'',
-    interview:'<iframe width="560" height="315" src="https://www.youtube.com/embed/xWGLRkLEbxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    interview:'xWGLRkLEbxw',
     linkedin:'https://www.linkedin.com/in/luc%C3%ADa-canevaro-17078215/'
   },{
     id: uniqid(),
