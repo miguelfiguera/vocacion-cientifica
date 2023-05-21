@@ -11,8 +11,8 @@ export default function Entrevista({object}) {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-      <div className="card-body border border-bottom">
-        <h1 className="fs-4 card-title">{object.name}</h1>
+      <div className="card-body  border-bottom border-secondary">
+        <h1 className="fs-4 card-title border-bottom border-secondary">{object.name}</h1>
         <p className="card-text">{object.jobDescription}</p>
         {object.jobTitle ? <p className="card-text">{object.jobTitle}</p> : ''}
 
